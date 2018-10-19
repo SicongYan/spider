@@ -5,14 +5,16 @@
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/items.html
 
-import scrapy
 from scrapy import Item, Field;
 
 
-class QuoteItem(scrapy.Item):
+class ProductItem(Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    text = scrapy.Field();
-    author = scrapy.Field();
-    tags = scrapy.Field();
-    pass
+    collection = "products";
+    image = Field();
+    price = Field();
+    deal = Field();
+    title = Field();
+    shop = Field();
+    location = Field();
