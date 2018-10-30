@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb73f18-b92e-4c50-88ee-9aa96ec71101" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images360/images360/ImagePipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images360/images360/MongoPipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images360/images360/MysqlPipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/MongoPipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/SeleniumMiddleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quote/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/quote/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapyseleniumtest/ghostdriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/scrapyseleniumtest/ghostdriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/spiders/taobao.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/spiders/taobao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test18/CookieGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test18/CookieGenerator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +21,7 @@
     <SUITE FILE_PATH="coverage/spider$Test2.coverage" NAME="Test2 Coverage Results" MODIFIED="1536049740429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test2" />
     <SUITE FILE_PATH="coverage/spider$Test10.coverage" NAME="Test10 Coverage Results" MODIFIED="1536115083154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test10" />
     <SUITE FILE_PATH="coverage/spider$Login.coverage" NAME="Login Coverage Results" MODIFIED="1538997624660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/test17" />
+    <SUITE FILE_PATH="coverage/spider$DeleteFiles.coverage" NAME="DeleteFiles Coverage Results" MODIFIED="1540371074699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/spider$Test1.coverage" NAME="Test1 Coverage Results" MODIFIED="1536028606708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test1" />
     <SUITE FILE_PATH="coverage/spider$Test12.coverage" NAME="Test12 Coverage Results" MODIFIED="1536146599030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test12" />
     <SUITE FILE_PATH="coverage/spider$Test4.coverage" NAME="Test4 Coverage Results" MODIFIED="1536052114135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test4" />
@@ -36,6 +35,7 @@
     <SUITE FILE_PATH="coverage/spider$Test14.coverage" NAME="Test14 Coverage Results" MODIFIED="1536287265866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test14" />
     <SUITE FILE_PATH="coverage/spider$WeiboCookies.coverage" NAME="WeiboCookies Coverage Results" MODIFIED="1539084067457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/test18" />
     <SUITE FILE_PATH="coverage/spider$Test11.coverage" NAME="Test11 Coverage Results" MODIFIED="1536133361476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test11" />
+    <SUITE FILE_PATH="coverage/spider$DeleteFilesUtil.coverage" NAME="DeleteFilesUtil Coverage Results" MODIFIED="1540371018369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/spider$GetVerificationCode.coverage" NAME="GetVerificationCode Coverage Results" MODIFIED="1537427660189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tnet" />
   </component>
   <component name="DatabaseView">
@@ -56,13 +56,18 @@
     <session id="-56790053">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="26" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.119" value="1" />
+          <entry key="project.open.time.136" value="1" />
+          <entry key="project.open.time.139" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.48" value="2" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.50" value="1" />
@@ -72,7 +77,8 @@
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.80" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -82,7 +88,8 @@
           <entry key="ico" value="1" />
           <entry key="jl" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="py" value="196" />
+          <entry key="log" value="3" />
+          <entry key="py" value="231" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -90,8 +97,8 @@
         <counts>
           <entry key="Image" value="2" />
           <entry key="Ini" value="3" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="196" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="231" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -99,50 +106,24 @@
           <entry key="Python Console" value="24" />
           <entry key="dummy" value="12" />
           <entry key="gitignore" value="5" />
-          <entry key="py" value="18594" />
+          <entry key="py" value="19306" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="18618" />
+          <entry key="Python" value="19330" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/settings.py">
+        <entry file="file://$PROJECT_DIR$/test/test1/Test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/spiders/taobao.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="19" />
-              <folding>
-                <element signature="e#25#60#0" expanded="true" />
-                <marker date="1539940555221" expanded="true" signature="342:627" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/SeleniumMiddleware.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="37" column="65" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="65" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <marker date="1539937344971" expanded="true" signature="354:359" ph="..." />
-              </folding>
+            <state relative-caret-position="125">
+              <caret line="5" column="20" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -173,7 +154,17 @@
       <find>MAX_PAG</find>
       <find>conncet</find>
       <find>KEYWORDS</find>
+      <find>webdriver</find>
+      <find>save_image</find>
+      <find>brower</find>
+      <find>presence_of_all_elements_located</find>
+      <find>presence_of_element_located</find>
+      <find>find_element_by_css_selector</find>
+      <find>Keys</find>
     </findStrings>
+    <dirStrings>
+      <dir>E:\python work\spider\test</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -181,11 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test5/Test5.py" />
-        <option value="$PROJECT_DIR$/test6/Test6.py" />
-        <option value="$PROJECT_DIR$/test7/Test7.py" />
-        <option value="$PROJECT_DIR$/test8/Test8.py" />
-        <option value="$PROJECT_DIR$/test9/Test9.py" />
         <option value="$PROJECT_DIR$/test10/Test10.py" />
         <option value="$PROJECT_DIR$/test11/Test11.py" />
         <option value="$PROJECT_DIR$/test12/Test12.py" />
@@ -202,7 +188,6 @@
         <option value="$PROJECT_DIR$/test/test18/ValidTester.py" />
         <option value="$PROJECT_DIR$/test/test18/Impl.py" />
         <option value="$PROJECT_DIR$/test/test18/Config.py" />
-        <option value="$PROJECT_DIR$/test/test18/CookieGenerator.py" />
         <option value="$PROJECT_DIR$/test/test18/WeiboCookies.py" />
         <option value="$PROJECT_DIR$/test/test18/WeiboCookiesGenerator.py" />
         <option value="$PROJECT_DIR$/test/test18/Scheduler.py" />
@@ -230,8 +215,14 @@
         <option value="$PROJECT_DIR$/images360/images360/settings.py" />
         <option value="$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/items.py" />
         <option value="$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/SeleniumMiddleware.py" />
-        <option value="$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/spiders/taobao.py" />
         <option value="$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/settings.py" />
+        <option value="$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/spiders/taobao.py" />
+        <option value="$PROJECT_DIR$/util/DeleteFilesUtil.py" />
+        <option value="$PROJECT_DIR$/util/DeleteFiles.py" />
+        <option value="$PROJECT_DIR$/scrapyUniversal/scrapyUniversal/items.py" />
+        <option value="$PROJECT_DIR$/scrapyUniversal/scrapyUniversal/spiders/china.py" />
+        <option value="$PROJECT_DIR$/test/test18/CookieGenerator.py" />
+        <option value="$PROJECT_DIR$/test/test15/Test15.py" />
       </list>
     </option>
   </component>
@@ -241,11 +232,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="140" />
-    <option name="y" value="4" />
-    <option name="width" value="1598" />
-    <option name="height" value="898" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -276,6 +267,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,31 +278,18 @@
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="images360" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapyseleniumtest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapyseleniumtest" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapyseleniumtest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapyseleniumtest" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapyseleniumtest" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,8 +322,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PhantomJS">
-    <configuration name="GetVerificationCode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.DeleteFiles">
+    <configuration name="DeleteFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,12 +331,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tnet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tnet/GetVerificationCode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/DeleteFiles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DeleteFilesUtil" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/DeleteFilesUtil.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -410,28 +411,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test16" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test16" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test16/Test16.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="WeiboCookies" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -455,19 +434,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Test16" />
-      <item itemvalue="Python.GetVerificationCode" />
       <item itemvalue="Python.Login" />
       <item itemvalue="Python.WeiboCookies" />
       <item itemvalue="Python.PhantomJS" />
+      <item itemvalue="Python.DeleteFiles" />
+      <item itemvalue="Python.DeleteFilesUtil" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DeleteFiles" />
+        <item itemvalue="Python.DeleteFilesUtil" />
         <item itemvalue="Python.PhantomJS" />
         <item itemvalue="Python.WeiboCookies" />
         <item itemvalue="Python.Login" />
-        <item itemvalue="Python.GetVerificationCode" />
-        <item itemvalue="Python.Test16" />
       </list>
     </recent_temporary>
   </component>
@@ -497,12 +476,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27813852" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27735645" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,98 +549,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test13/Test13.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="135" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test18/ValidTester.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test18/RedisClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test18/Api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test17/Login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="141" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test18/CookieGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test18/Scheduler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test18/Config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test18/WeiboCookiesGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test18/WeiboCookies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test19.py" />
-    <entry file="file://E:/python3/Lib/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="996" selection-start-line="996" selection-end-line="996" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/python3/Lib/site-packages/selenium/webdriver/common/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test19/PhantomJS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frame/scrapy/scrapyTest/scrapyTest/items.py" />
-    <entry file="file://$PROJECT_DIR$/frame/scrapy/scrapyTest/scrapyTest/spiders/quotes.py" />
-    <entry file="file://$PROJECT_DIR$/frame/scrapy/scrapyTest/items.py" />
-    <entry file="file://$PROJECT_DIR$/quote/quote/items.py" />
     <entry file="file://$PROJECT_DIR$/quote/quote/spiders/quotes.py" />
     <entry file="file://$PROJECT_DIR$/quote.jl">
       <provider selected="true" editor-type-id="text-editor">
@@ -687,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/saveImage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -701,37 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quote/spiders/images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quote/spiders/quotes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quote/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#153#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quote/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/spiders/images.py" />
     <entry file="file://$PROJECT_DIR$/images360/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -781,10 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-            <marker date="1539928295479" expanded="true" signature="157:162" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -799,9 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <marker date="1539928039054" expanded="true" signature="194:195" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,10 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#153#166#0" expanded="true" />
-            <marker date="1539929516884" expanded="true" signature="222:334" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,16 +659,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-            <marker date="1539930682241" expanded="true" signature="643:649" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images360/images/t01a2def62e4a0170da.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images360/images/t01a2def62e4a0170da.jpg" />
     <entry file="file://$PROJECT_DIR$/images360/images360/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -844,6 +677,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/SeleniumMiddleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="37" column="65" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/DeleteFilesUtil.py" />
+    <entry file="file://$PROJECT_DIR$/util/DeleteFiles.py" />
+    <entry file="file://$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/spiders/taobao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -851,35 +710,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/middlewares.py">
+    <entry file="file://$PROJECT_DIR$/scrapyUniversal/scrapyUniversal/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapyUniversal/scrapyUniversal/spiders/china.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/SeleniumMiddleware.py">
+    <entry file="file://$PROJECT_DIR$/quote/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/spiders/quotes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="37" column="65" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="65" />
+        <state relative-caret-position="175">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/saveImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test18/ValidTester.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test18/Scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test18/Api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test17/Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test18/CookieGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test18/WeiboCookiesGenerator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test19/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test15/Test15.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-            <marker date="1539937344971" expanded="true" signature="354:359" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/spiders/taobao.py">
+    <entry file="file://$PROJECT_DIR$/test/test18/WeiboCookies.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="1350">
+          <caret line="54" column="68" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="68" />
           <folding>
-            <element signature="e#25#60#0" expanded="true" />
-            <marker date="1539940555221" expanded="true" signature="342:627" ph="..." />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapyseleniumtest/scrapyseleniumtest/settings.py">
+    <entry file="file://$PROJECT_DIR$/test/test16/Test16.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="575">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test1/Test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="20" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>

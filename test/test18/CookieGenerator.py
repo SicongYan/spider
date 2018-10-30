@@ -13,7 +13,6 @@ class CookiesGenerator(object):
         self.website = website;
         self.cookies_db = RedisClient("cookies", self.website);
         self.accounts_db = RedisClient("accounts", self.website);
-        self
 
     def init_brower(self):
         if("PhantomJS" == BROWSER_TYPE):
